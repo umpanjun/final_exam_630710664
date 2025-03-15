@@ -1,0 +1,25 @@
+name: final_exam_630710664
+description: A new Flutter project for final exam.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0" 
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# ตั้งค่าสำหรับ Flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
