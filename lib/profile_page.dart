@@ -14,14 +14,14 @@ class ProfilePage extends StatelessWidget {
             end: Alignment.bottomCenter,
           ),
         ),
-        // จัดกึ่งกลางเนื้อหา
+        
         child: Center(
           child: SingleChildScrollView(
             padding: const EdgeInsets.all(16.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // รูปโปรไฟล์ (คงเดิม)
+                // รูปโปรไฟล์ 
                 CircleAvatar(
                   radius: 60,
                   backgroundImage: NetworkImage(
@@ -88,10 +88,10 @@ class ProfilePage extends StatelessWidget {
                 ),
 
                 const SizedBox(height: 30),
-                // รูปภาพใหม่ที่วางไว้ด้านล่างสุดของหน้า เพียงแสดงรูปโดยไม่ครอบด้วยกรอบ
+
                 Image.network(
                   'https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.15752-9/482564975_1699679613954246_2858203732734166221_n.png?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=H7lL5SVwHosQ7kNvgEAO9LF&_nc_oc=AdgoVqCO8IH7w_3iJaV6FMMQ9JOmmbn4jp--XQPoTlps8SXHd7gArOo-T0bRoRc3KYE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fbkk17-1.fna&oh=03_Q7cD1wFvkB9bKsF7aNLqvSIoDjMMW-2puB21jeH4SeVwo6GRAQ&oe=67FC651F',
-                  // ปรับขนาดหรือฟิตรูปตามความต้องการ
+                  
                   fit: BoxFit.cover,
                 ),
               ],
